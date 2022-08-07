@@ -1,6 +1,6 @@
 # react-portfolio
 
-Self-learning how to create and deploy a React portfolio website
+Self-learning how to create and deploy a React portfolio
 
 # Getting Started with Create React App
 
