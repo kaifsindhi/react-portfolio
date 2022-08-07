@@ -41,11 +41,6 @@ export default function PagesBar() {
               Experience
             </Typography>
           </a> */}
-          <a href="/">
-            <Typography variant="subtitle1" sx={{ color: "white" }}>
-              About
-            </Typography>
-          </a>
           <a href="/projects">
             <Typography variant="subtitle1" sx={{ color: "white" }}>
               Projects
