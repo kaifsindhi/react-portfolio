@@ -20,7 +20,7 @@ import EmailIcon from "./icons/EmailIcon";
 
 export default function PagesBar() {
   return (
-    <AppBar position="fixed" sx={{ backgroundColor: "transparent" }}>
+    <AppBar position="fixed" sx={{ backgroundColor: "transparent", boxShadow:0 }}>
       <Toolbar sx={{ color: "white" }}>
         <Typography sx={{ flexGrow: 1 }}>
           <a href="/">
@@ -36,17 +36,22 @@ export default function PagesBar() {
           spacing={5}
           sx={{ padding: 2.5 }}
         >
-          <a href="experience">
+          {/* <a href="experience">
             <Typography variant="subtitle1" sx={{ color: "white" }}>
               Experience
             </Typography>
+          </a> */}
+          <a href="/">
+            <Typography variant="subtitle1" sx={{ color: "white" }}>
+              About
+            </Typography>
           </a>
-          <a href="projects">
+          <a href="/projects">
             <Typography variant="subtitle1" sx={{ color: "white" }}>
               Projects
             </Typography>
           </a>
-          <a href="resume">
+          <a href="/resume">
             <Button variant="outlined">
               <Typography variant="subtitle1" sx={{ color: "white" }}>
                 Resume
