@@ -1,11 +1,11 @@
-import * as React from "react";
+import { Typography, Grid } from "@mui/material";
 
 export default function MainPage() {
   return (
-    <div>
-      <h1>hello world</h1>
-      <p>hosting a website is very easy with GitHub pages</p>
-      <p>i made an edit</p>
-    </div>
+    <Grid sx={{width: "100%"}}>
+      <Typography sx={{ color: "white" }}>
+        WORK IN PROGRESS Hi, my name is Kaif Sindhi. I am a software engineering student
+      </Typography>
+    </Grid>
   );
 }
