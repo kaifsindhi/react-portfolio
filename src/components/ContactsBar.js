@@ -8,6 +8,8 @@ import {
   Box,
   Grid,
   Tooltip,
+  Toolbar,
+  MenuItem
 } from "@mui/material";
 import LinkedInIcon from "./icons/LinkedInIcon";
 import GitHubIcon from "./icons/GitHubIcon";
@@ -20,7 +22,7 @@ export default function ContactsBar() {
       justifyContent="flex-end"
       alignItems="baseline"
       spacing={2.5}
-      sx={{ padding: 2.5 }}
+      sx={{ padding: 2.5}}
     >
       <Tooltip title="GitHub" placement="right">
         <a href="https://github.com/kaifsindhi?tab=repositories">
