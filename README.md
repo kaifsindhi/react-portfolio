@@ -4,7 +4,7 @@ Self-learning how to create and deploy a React portfolio
 
 ## Portfolio
 
-You can view my portfolio via navigating to my <a href="https://kaifsindhi.com/">website</a> or typing <i>npm start</i> in the root of this project's directory. It is currently not very impressive but I am currently working on it!
+You can view my portfolio via navigating to my <a href="https://kaifsindhi.com/">website</a> or typing <i>npm start</i> in the root of this project's directory. It is currently not very impressive but I am working on it!
 
 ### Technologies
 <ul>
