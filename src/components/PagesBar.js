@@ -41,12 +41,12 @@ export default function PagesBar() {
               Experience
             </Typography>
           </a> */}
-          <a href="/projects">
+          {/* <a href="/projects">
             <Typography variant="subtitle1" sx={{ color: "white" }}>
               Projects
             </Typography>
-          </a>
-          <a href="/resume">
+          </a> */}
+          <a href="https://drive.google.com/file/d/1MrxVSw8-K9oZhcUe83Q0HXJzwHkyQ8yR/view?usp=sharing">
             <Button variant="outlined">
               <Typography variant="subtitle1" sx={{ color: "white" }}>
                 Resume
