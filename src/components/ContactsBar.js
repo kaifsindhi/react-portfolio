@@ -6,18 +6,19 @@ import {
   ListItemButton,
   ListItemText,
   Box,
+  Grid,
   Tooltip,
 } from "@mui/material";
 import LinkedInIcon from "./icons/LinkedInIcon";
 import GitHubIcon from "./icons/GitHubIcon";
 import EmailIcon from "./icons/EmailIcon";
 
-export default function NavigationBar() {
+export default function ContactsBar() {
   return (
     <Stack
       direction="column"
       justifyContent="flex-end"
-      alignItems="flex-start"
+      alignItems="baseline"
       spacing={2.5}
       sx={{ padding: 2.5 }}
     >

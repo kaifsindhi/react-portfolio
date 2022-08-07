@@ -2,7 +2,11 @@ import { Grid } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MainPage from "./pages/Main";
-import NavigationBar from "./components/NavigationBar";
+import ExperiencePage from "./pages/Experience";
+import ProjectsPage from "./pages/Projects";
+import ResumePage from "./pages/Resume";
+import ContactsBar from "./components/ContactsBar";
+import PagesBar from "./components/PagesBar";
 
 function App() {
   const theme = useTheme();
@@ -14,16 +18,19 @@ function App() {
       sx={{
         display: "flex",
         width: "100%",
-        height: "100vh",
-        backgroundColor: "black"
+        height: "100%",
+        backgroundColor: "black",
+        minHeight: "100vh",
       }}
     >
-      <NavigationBar />
+      <ContactsBar />
+      <PagesBar />
       <Router>
         <Routes>
           <Route exact path="/" element={<MainPage />}></Route>
-          {/* <Route exact path="/about" element={<About />}></Route>
-          <Route exact path="/contact" element={<Contact />}></Route> */}
+          <Route path="/experience" element={<ExperiencePage />}></Route>
+          <Route path="/projects" element={<ProjectsPage />}></Route>
+          <Route path="/resume" element={<ResumePage />}></Route>
         </Routes>
       </Router>
     </Grid>
