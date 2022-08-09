@@ -26,7 +26,7 @@ You can view my portfolio via navigating to my <a href="https://kaifsindhi.com/"
     </a>
   </li>
   <li>
-    <a href="https://gist.github.com/ChrisTollefson/a3af6d902a74a0afd1c2d79aadc9bb3f#hyperlinks">
+    <a href="https://www.youtube.com/watch?v=6Rto09ElUuY">
     Set up a custom domain on GitHub pages
     </a>
   </li> 
